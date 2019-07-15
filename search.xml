@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Git常用命令]]></title>
+    <url>%2F2019%2F07%2F14%2FGit%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[常用操作Git的通用操作，可以在本地做好控制版本后，push到Git服务器，可以是Github、Gitlab。 Create a new repository on the comand line12345git init git add .git commit -m "first commit"git remote add origin https://github.com/yourId/repoName.gitgit push -u origin master Push an existing repository from the command line12git remote add origin https://github.com/yourID/repoName.gitgit push -u origin master]]></content>
+      <tags>
+        <tag>Git命令</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F07%2F13%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
