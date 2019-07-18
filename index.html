@@ -352,7 +352,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-07-18T16:34:25+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-07-18T16:38:08+08:00">
                 2019-07-18
               </time>
             
@@ -371,19 +371,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/深度学习笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">深度学习笔记</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/深度学习笔记/数学基础/" itemprop="url" rel="index">
-                    <span itemprop="name">数学基础</span>
+                  <a href="/categories/深度学习笔记-数学基础/" itemprop="url" rel="index">
+                    <span itemprop="name">深度学习笔记 - 数学基础</span>
                   </a>
                 </span>
 
@@ -424,14 +413,12 @@
             <h1 id="DL1-1向量和矩阵"><a href="#DL1-1向量和矩阵" class="headerlink" title="DL1.1向量和矩阵"></a>DL1.1向量和矩阵</h1><h2 id="标量、向量、矩阵、张量之间的联系"><a href="#标量、向量、矩阵、张量之间的联系" class="headerlink" title="标量、向量、矩阵、张量之间的联系"></a>标量、向量、矩阵、张量之间的联系</h2><p>标量（scalar）是一个单独的数，类似于一个点。<br>向量（vector）是一组有序排列的数，类似于<em>一维</em>，一条线。<br>矩阵（matrix）是具有相同特征和纬度的对象的集合，类似于<em>二维</em>，一个面。<br>张量（tensor）是分布在若干维坐标的规则网格中的一个数组中的元素，类似于<em>多维</em>，一个空间。<br><strong>Ps：标量、向量、矩阵、张量之间的联系类似于点、线、面、空间的联系</strong></p>
 <h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><ul>
 <li>向量、矩阵、张量<strong>不依赖参照系</strong>，即不随参照系坐标变化而变化</li>
-<li>标量可以视作1×1的特殊向量或特殊矩阵，其他同理。<h2 id="乘积"><a href="#乘积" class="headerlink" title="乘积"></a>乘积</h2><h3 id="向量的叉积与点积"><a href="#向量的叉积与点积" class="headerlink" title="向量的叉积与点积"></a>向量的叉积与点积</h3><ul>
+<li>标量可以视作1×1的特殊向量或特殊矩阵，其他同理。<h2 id="乘积"><a href="#乘积" class="headerlink" title="乘积"></a>乘积</h2><h3 id="向量的叉积与点积"><a href="#向量的叉积与点积" class="headerlink" title="向量的叉积与点积"></a>向量的叉积与点积</h3></li>
 <li><strong>点积</strong><pre><code>向量的内积，又叫数量积，又叫点积。
 **公式**：![CodeCogsEqn](https://i.loli.net/2019/07/18/5d301bd1d7fc544654.jpg)  或  ![1516](https://i.loli.net/2019/07/18/5d301d9be51f798448.jpg)
 **性质**：满足交换律但不满足结合律
 **几何意义**：用来表征或计算两个向量之间的夹角，以及在b向量在a向量方向上的投影
 **物理意义**：某力在某个方向的功</code></pre></li>
-</ul>
-</li>
 <li><strong>叉积</strong><pre><code>向量的外积，又叫向量积，又叫叉积。
 **公式**：![CodeCogsEqn](https://i.loli.net/2019/07/18/5d301fc74b16e27496.jpg) 或 ![向量外积公式](https://i.loli.net/2019/07/18/5d30218aab5ea51421.jpg)
 **性质**：不满足交换律也不满足结合律
@@ -444,13 +431,11 @@
 <h3 id="矩阵与向量相乘"><a href="#矩阵与向量相乘" class="headerlink" title="矩阵与向量相乘"></a>矩阵与向量相乘</h3><p>可将向量视为n×1的矩阵来运算</p>
 <h2 id="范数"><a href="#范数" class="headerlink" title="范数"></a>范数</h2><p>具有“长度”概念的函数。满足①非负性；②齐次性；③三角不等式。</p>
 <h3 id="向量的范数-norm"><a href="#向量的范数-norm" class="headerlink" title="向量的范数(norm)"></a>向量的范数(norm)</h3><ul>
-<li>p范数<br>  <img src="https://i.loli.net/2019/07/18/5d30280e2630483606.jpg" alt="向量p范数"><ul>
-<li>1范数   各个元素的绝对值之和<br> <img src="https://i.loli.net/2019/07/18/5d3028712f18f80689.jpg" alt="1范数"></li>
-<li>2范数  每个元素的平方和再开平方根<br><img src="https://i.loli.net/2019/07/18/5d3028af8901b60391.jpg" alt="2范数"></li>
-<li>负无穷范数  所有元素的绝对值中最小的<br><img src="https://i.loli.net/2019/07/18/5d3028f4b2eb719686.jpg" alt="负无穷范数"></li>
-<li>正无穷范数 所有元素的绝对值中最大的<br><img src="https://i.loli.net/2019/07/18/5d30296048b1a60070.jpg" alt="正无穷范数"><h3 id="矩阵的范数"><a href="#矩阵的范数" class="headerlink" title="矩阵的范数"></a>矩阵的范数</h3>看不懂，先去补知识再写。。。<h2 id="正定矩阵的判定"><a href="#正定矩阵的判定" class="headerlink" title="正定矩阵的判定"></a>正定矩阵的判定</h2></li>
-</ul>
-</li>
+<li>p范数<br> <img src="https://i.loli.net/2019/07/18/5d30280e2630483606.jpg" alt="向量p范数"></li>
+<li>1范数   各个元素的绝对值之和<br>  <img src="https://i.loli.net/2019/07/18/5d3028712f18f80689.jpg" alt="1范数"></li>
+<li>2范数  每个元素的平方和再开平方根<br> <img src="https://i.loli.net/2019/07/18/5d3028af8901b60391.jpg" alt="2范数"></li>
+<li>负无穷范数  所有元素的绝对值中最小的<br> <img src="https://i.loli.net/2019/07/18/5d3028f4b2eb719686.jpg" alt="负无穷范数"></li>
+<li>正无穷范数 所有元素的绝对值中最大的<br> <img src="https://i.loli.net/2019/07/18/5d30296048b1a60070.jpg" alt="正无穷范数"><h3 id="矩阵的范数"><a href="#矩阵的范数" class="headerlink" title="矩阵的范数"></a>矩阵的范数</h3>看不懂，先去补知识再写。。。<h2 id="正定矩阵的判定"><a href="#正定矩阵的判定" class="headerlink" title="正定矩阵的判定"></a>正定矩阵的判定</h2></li>
 </ul>
 <p>判定一个矩阵是否为正定，通常有以下几个方面：  </p>
 <ul>
@@ -836,7 +821,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
