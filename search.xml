@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Python趣味画图之Flower1]]></title>
     <url>%2F2019%2F07%2F19%2FFlower1%2F</url>
-    <content type="text"><![CDATA[效果展示：代码如下： 123456789import turtle__Pen = turtle.Pen()__Pen.speed(1000)for i in range(80,30,(-2)): for __count in range(6): __Pen.circle(i,120) __Pen.left(60) __Pen.circle(i,120)turtle.mainloop()]]></content>
+    <content type="text"><![CDATA[效果展示：代码如下： 12345678910import turtle__Pen = turtle.Pen()__Pen.speed(1000)for i in range(80,30,(-2)): for __count in range(6): __Pen.circle(i,120) __Pen.left(60) __Pen.circle(i,120)__Pen.ht()turtle.mainloop()]]></content>
       <categories>
         <category>Python趣味画图</category>
       </categories>
